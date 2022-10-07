@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.author            = { 'Name' => 'info@facekom.com' }
   s.license           = { :type => 'MIT', :file => 'LICENSE' }
 
-  s.source            = { :http => 'https://github.com/kelemenjeno/pdfium/raw/master/Pdfium/1.0.0/Pdfium.xcframework.zip' }
+  s.source            = { :http => 'https://github.com/kelemenjeno/pdfium/raw/master/Pdfium/1.0.1/Pdfium.xcframework.zip' }
 
   s.swift_version = '5.2'
   s.platform          = :ios
