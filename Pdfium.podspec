@@ -7,7 +7,7 @@ s.homepage          = 'https://facekom.net'
 s.author            = { 'Name' => 'info@techteamer.com' }
 s.license           = { :type => 'MIT', :file => 'LICENSE' }
 
-s.source            = { :http => 'https://github.com/kelemenjeno/pdfium/raw/#{s.version}/Pdfium/Pdfium.xcframework.zip' }
+s.source            = { :git => 'git@github.com:kelemenjeno/pdfium.git', :tag => s.version.to_s }
 
 s.swift_version = '5.2'
 s.platforms = { :ios => "11.0", :osx => "10.5" }
